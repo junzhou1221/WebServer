@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+platform:ios,'9.0'
+
+
+target 'WebTest' do
+    pod "GCDWebServer", "~> 3.0"
+    pod 'SDWebImage', '5.7.3' # 718 版本升级图片库，配合升级 SD 版本
+end
